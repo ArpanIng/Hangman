@@ -74,7 +74,6 @@ def hangman():
 
     chosen_word = random.choice(word_list)
     word_length = len(chosen_word)
-    print(chosen_word)
 
     display = []
     for _ in range(word_length):
